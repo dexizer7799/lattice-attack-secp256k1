@@ -2,7 +2,7 @@
 
 This code created by Dexizer
 
-It will recover Ecdsa Secp256K1 private key up to 256 bits and with up to 250 bits k nonces.
+It will recover Ecdsa Secp256K1 private key up to 256 bits and with up to 249 bits k nonces.
 
 """
 
@@ -91,7 +91,7 @@ secret = random.randrange(1, q)
 
 print('Private Key:', secret)
 
-kbits = 250
+kbits = 249
 
 B = 2 ** 249
 
