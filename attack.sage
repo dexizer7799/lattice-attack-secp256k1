@@ -85,7 +85,7 @@ def attack():
 
 	return recoveredPrivateKey
 
-num = 160
+num = 200
 
 secret = random.randrange(1, q)
 
